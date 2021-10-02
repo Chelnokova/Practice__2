@@ -1,0 +1,288 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("/fonts/HelveticaNeue-Roman.woff2") format("woff2"), url("/fonts/HelveticaNeue-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("/fonts/HelveticaNeueBlackCondensed.woff2") format("woff2"),
+		url("/fonts/HelveticaNeueBlackCondensed.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block1 {
+	font-family: "Poppins", sans-serif;
+	color: #323232;
+	max-width: 374px;
+	margin: 68px 0 40px 135px;
+}
+
+.block1 .content {
+	margin-bottom: 40px;
+}
+
+.block1 h2 {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 62px;
+	letter-spacing: 0.8px;
+	margin-bottom: 20px;
+}
+
+.block1 p {
+	line-height: 27px;
+	letter-spacing: 1.15px;
+}
+
+.block1 .text {
+	margin-bottom: 20px;
+}
+.block1 .button {
+	line-height: 24px;
+	font-weight: 700;
+	background-color: #f78434;
+	width: 172px;
+	height: 58px;
+	border-radius: 29px;
+	padding: 18px 39px 16px;
+}
+
+.block1 .button a {
+	color: #ffffff;
+}
+
+.block2 {
+	width: 540px;
+	text-align: center;
+	color: #323232;
+	padding: 40px 88px;
+}
+
+.block2 img {
+	width: 70px;
+	height: 70px;
+	margin-bottom: 15px;
+}
+
+.block2 h2 {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 63px;
+	letter-spacing: 0.8px;
+}
+
+.block2 p {
+	font-family: "Poppins", sans-serif;
+	line-height: 27px;
+	letter-spacing: 1.15px;
+	margin-bottom: 25px;
+}
+
+.block2 .button {
+	width: 172px;
+	height: 58px;
+	padding: 18px 39px 16px;
+	margin: 0 auto;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.block2 .button a {
+	color: #f78434;
+}
+
+.block3 {
+	font-family: "Poppins", sans-serif;
+	max-width: 350px;
+	margin-left: 30px;
+}
+.block3 .content {
+	padding: 31px 29px;
+	line-height: 27px;
+}
+.block3 .content .text {
+	letter-spacing: 1.15px;
+	color: #323232;
+	margin-bottom: 23px;
+}
+
+.block3 .content .name {
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 0.6px;
+	color: #323232;
+	margin-bottom: 1px;
+}
+
+.block3 .content .town {
+	letter-spacing: 1.15px;
+	color: #58bebf;
+}
+
+.block4 {
+	font-family: "Helvetica Neue", sans-serif;
+	max-width: 255px;
+	min-height: 206px;
+	border-radius: 6px;
+	background-color: #252525;
+	color: #ffffff;
+	padding: 24px;
+	margin: 30px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.block4 h2 {
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+.block4 .line {
+	width: 56px;
+	height: 2px;
+	background-color: #34c759;
+	margin-bottom: 24px;
+}
+
+.block4 p {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.block5 {
+	font-family: "Helvetica Neue", sans-serif;
+	max-width: 350px;
+	min-height: 493px;
+	background: #252525;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin: 30px;
+}
+
+.block5 .content {
+	margin: 29px 24px 24px 30px;
+}
+
+.block5 .content .title {
+	margin-bottom: 20px;
+}
+
+.block5 .content .title .name {
+	font-size: 32px;
+	line-height: 30px;
+	color: #d9d9d9;
+}
+
+.block5 .content .title .descr {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -0.15px;
+	color: #a4a8b2;
+}
+
+.block5 .content .descr {
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: -0.1625px;
+	color: #85878c;
+	margin-bottom: 26px;
+}
+
+.block5 .content .rating,
+.button {
+	display: inline-block;
+}
+
+.block5 .content .rating {
+	min-width: 155px;
+}
+
+.block5 .content .rating p {
+	display: inline-block;
+	font-weight: 900;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 1.5px;
+	color: #b3b3b3;
+	margin: 0 0 0 14px;
+}
+
+.block5 .content .button {
+	width: 100px;
+	height: 40px;
+	background-color: #262626;
+	border: 2px solid #303030;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: 30px;
+}
+
+.block5 .content .button a {
+	font-weight: 900;
+	font-size: 10px;
+	line-height: 35px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+
+	color: rgba(255, 255, 255, 0.5);
+}
