@@ -219,6 +219,10 @@ body {
 	margin: 30px;
 }
 
+.block5 .img img {
+	max-width: 350px;
+}
+
 .block5 .content {
 	margin: 29px 24px 24px 30px;
 }
