@@ -117,7 +117,6 @@ body {
 
 .block2 img {
 	width: 70px;
-	height: 70px;
 	margin-bottom: 15px;
 }
 
@@ -212,15 +211,18 @@ body {
 .block5 {
 	font-family: "Helvetica Neue", sans-serif;
 	max-width: 350px;
-	min-height: 493px;
 	background: #252525;
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 	border-radius: 6px;
 	margin: 30px;
 }
 
+.block5 .img img {
+	max-width: 350px;
+}
+
 .block5 .content {
-	margin: 29px 24px 24px 30px;
+	padding: 29px 30px 24px;
 }
 
 .block5 .content .title {
